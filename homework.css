@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+body{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background-color: #62929E;
+    width: 1300px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+.gambar{
+    width: 200px;
+    margin-bottom: 5px;
+}
+.btnSubmit{
+    width: 80px;
+    height: 20px;
+}

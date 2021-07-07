@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homework.css">
+    <title> Create Playlist</title>
+</head>
+<body>
+    <h1>Create playlist</h1>
+    <label for="">Title : <input name="judul" type="text" id="judul"></label>
+    <label for="">Description : <input name="desc" id="desc"></label>
+    <input name="button" type="button" value="Submit" class="btnSubmit" onClick="submitV('judul', 'desc')">
+
+    <div class="container">
+        <img src="gambar.jpg" alt="" class="gambar">
+        <p>Track title</p>
+        <p>Artis</p>
+        <p>Album</p>
+        <button type="button" onclick="select1()">Select</button>
+    </div>
+
+    <script>
+        function submitV(field1,field2)
+        {  
+            var field1 = document.getElementById(field1).value;  
+            var field2 = document.getElementById(field2).value;  
+            alert('Title: '+field1 + '\n' + 'Description '+field2);
+
+        }  
+    </script>
+</body>
+</html>
